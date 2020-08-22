@@ -1024,7 +1024,7 @@ int mdss_mdp_overlay_kickoff(struct msm_fb_data_type *mfd,
 	struct mdss_mdp_pipe *pipe;
 	struct mdss_mdp_ctl *ctl = mfd_to_ctl(mfd);
 	struct mdss_mdp_ctl *tmp;
-	int ret = 0, sd_in_pipe = 0, used_pipe = 0;
+	int ret = 0, sd_in_pipe = 0;
 
 	if (mfd->dbg_cnt)
 		pr_info("[fb%d][%s]\n", mfd->index, current->comm);
