@@ -1539,7 +1539,6 @@ static int mdss_mdp_overlay_get_fb_pipe(struct msm_fb_data_type *mfd,
 {
 	struct mdss_overlay_private *mdp5_data = mfd_to_mdp5_data(mfd);
 	struct mdss_mdp_pipe *pipe;
-	int ret;
 
 	pipe = mdss_mdp_mixer_stage_pipe(mdp5_data->ctl, mixer_mux,
 					 MDSS_MDP_STAGE_BASE);
