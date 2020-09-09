@@ -1163,7 +1163,7 @@ static struct platform_driver cpu_modes_driver = {
 	},
 };
 
-static struct of_device_id system_modes_mtch_tbl[] = {
+static struct of_device_id system_modes_mtch_tbl[] __initdata = {
 	{.compatible = "qcom,system-modes"},
 	{},
 };
