@@ -24,8 +24,8 @@ ifeq ($(CONFIG_FB_MSM_MDSS_SAMSUNG_OLED_PANEL),y)
 obj-$(CONFIG_FB_MSM_MDSS_SDC_S6E63J0X03_PANEL) += mdss_samsung_oled_cmd_320p_dsi_panel.o
 obj-$(CONFIG_FB_MSM_MDSS_SDC_S6E36W0X01_PANEL) += mdss_dsi_panel_oled_cmd.o
 else
-#mdss-dsi-objs += mdss_dsi_panel.o
-mdss-dsi-objs += mdss_dsi_panel_oled_cmd.o
+mdss-dsi-objs += mdss_dsi_panel.o
+#mdss-dsi-objs += mdss_dsi_panel_oled_cmd.o
 endif
 mdss-dsi-objs += msm_mdss_io_8974.o
 obj-$(CONFIG_FB_MSM_MDSS) += mdss-dsi.o
