@@ -16,7 +16,7 @@
 #include <linux/bootmem.h>
 
 #include "mdss_mdp.h"
-/*#include "mdss_panel.h"*/
+#include "mdss_panel.h"
 #include "mdss_dsi.h"
 
 #define VSYNC_EXPIRE_TICK 2
