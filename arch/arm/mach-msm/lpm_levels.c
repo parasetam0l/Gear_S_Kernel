@@ -1177,7 +1177,7 @@ static struct platform_driver system_modes_driver = {
 	},
 };
 
-static struct of_device_id lpm_levels_match_table[] = {
+static struct of_device_id lpm_levels_match_table[] __initdata = {
 	{.compatible = "qcom,lpm-levels"},
 	{},
 };
