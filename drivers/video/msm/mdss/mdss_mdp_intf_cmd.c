@@ -17,7 +17,6 @@
 
 #include "mdss_mdp.h"
 #include "mdss_dsi.h"
-#include "mdss_dsi_panel_oled.h"
 
 #define VSYNC_EXPIRE_TICK 2
 #define RT_ACT_EXPIRE_TICK 4
