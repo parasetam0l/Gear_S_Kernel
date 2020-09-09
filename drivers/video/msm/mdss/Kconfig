@@ -62,7 +62,7 @@ config FB_MSM_MDSS_MDP3
 
 config FB_MSM_MDSS_SAMSUNG_OLED_PANEL
 	bool "MDSS_SAMSUNG_OLED_PANEL"
-	default y
+	default n
 	---help---
 	MDSS Samsung OLED Panel support
 
