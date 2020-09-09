@@ -1149,7 +1149,7 @@ fail:
 	return -EFAULT;
 }
 
-static struct of_device_id cpu_modes_mtch_tbl[] = {
+static struct of_device_id cpu_modes_mtch_tbl[] __initdata = {
 	{.compatible = "qcom,cpu-modes"},
 	{},
 };
