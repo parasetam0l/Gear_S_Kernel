@@ -323,6 +323,11 @@ struct mdss_panel_info {
 	struct lvds_panel_info lvds;
 	struct edp_panel_info edp;
 	int (*alpm_event) (int event);
+	
+	u32 xstart_pix_align;
+	u32 width_pix_align;
+	u32 ystart_pix_align;
+	u32 height_pix_align;
 };
 
 enum panel_alpm_event{
